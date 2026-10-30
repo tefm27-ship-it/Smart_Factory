@@ -21,6 +21,7 @@ import { formatMinutes, formatNumber } from '../data/campus/buildings.utils'
 import { useTheme } from '../composables/useTheme'
 import { useToast } from '../composables/useToast'
 
+
 const router = useRouter()
 const { dark, toggle } = useTheme()
 const { show: toast } = useToast()
